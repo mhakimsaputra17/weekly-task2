@@ -2,10 +2,11 @@
   "name": "weekly-task2",
   "version": "1.0.0",
   "description": "Weekly Task 2",
-  "main": "index.js",
+  "main": "/taskenam/interface.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node taskenam/interface.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/mhakimsaputra17/weekly-task2/issues"
   },
-  "homepage": "https://github.com/mhakimsaputra17/weekly-task2#readme"
+  "homepage": "https://github.com/mhakimsaputra17/weekly-task2#readme",
+  "dependencies": {
+    "consola": "^3.4.0"
+  }
 }
