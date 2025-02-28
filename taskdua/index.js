@@ -1,4 +1,4 @@
-function getDataFromServer(status, callback) {
+export function getDataFromServer(status, callback) {
   setTimeout(function () {
     if (status) {
       callback(["product 1", "product 2", "product 3"], null);
@@ -10,7 +10,7 @@ function getDataFromServer(status, callback) {
   }, 3000);
 }
 
-const processData = (result, error) => {
+export const processData = (result, error) => {
   try {
     if (error) {
       throw error;
@@ -21,4 +21,5 @@ const processData = (result, error) => {
   }
 };
 
-getDataFromServer(true, processData);
+// getDataFromServer(true, processData);
+export default getDataFromServer;
