@@ -16,4 +16,5 @@ const getUsers = async () => {
     if (error instanceof Error) console.log(error);
   }
 };
-getUsers();
+// getUsers();
+export default getUsers;
