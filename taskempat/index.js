@@ -1,5 +1,5 @@
 // Function Palindrom
-const cekPalindrom = (str) => {
+export const cekPalindrom = (str) => {
   let start = 0;
   let end = str.length - 1;
   if (typeof str !== "string") return console.log("Input harus string");
@@ -14,12 +14,12 @@ const cekPalindrom = (str) => {
   }
 };
 
-cekPalindrom("malam");
-cekPalindrom("hello");
-cekPalindrom(123);
+// cekPalindrom("malam");
+// cekPalindrom("hello");
+// cekPalindrom(123);
 
 // Function reverseWords
-const reverseWords = (s) => {
+export const reverseWords = (s) => {
   if (typeof s !== "string") return console.log("Input harus string");
   let word = s.split(" ").filter((words) => words.length > 0);
   let left = 0;
@@ -33,5 +33,5 @@ const reverseWords = (s) => {
   console.log(result);
 };
 
-reverseWords("Saya Belajar Javascript");
-reverseWords(123);
+// reverseWords("Saya Belajar Javascript");
+// reverseWords(123);
