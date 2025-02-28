@@ -27,6 +27,12 @@ To start the application, run:
 npm start
 ```
 
+or you can run with nodemon:
+
+```bash
+npm run dev
+```
+
 ## Additional Information
 
 - Make sure you have Node.js installed. You can download it from [nodejs.org](https://nodejs.org/).
