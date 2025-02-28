@@ -2,11 +2,11 @@
   "name": "weekly-task2",
   "version": "1.0.0",
   "description": "Weekly Task 2",
-  "main": "/taskenam/interface.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node taskenam/interface.js"
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "homepage": "https://github.com/mhakimsaputra17/weekly-task2#readme",
   "dependencies": {
     "consola": "^3.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   }
 }
